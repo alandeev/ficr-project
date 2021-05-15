@@ -1,0 +1,9 @@
+.navbar-title {
+  align-items: center;  
+  height: 100%;
+}
+
+.navbar-title span {
+  padding: 10px;
+  font-size: 26px;
+}

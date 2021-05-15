@@ -1,1 +1,0 @@
-console.log('testando pra ver se sou reconhecida.');

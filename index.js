@@ -1,1 +1,0 @@
-console.log('gita é o P.O');
