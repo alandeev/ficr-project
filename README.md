@@ -1,13 +1,13 @@
 ## FICR Project
 
-### Tools and Ideas to use 
+### Tools and Ideas to use
 - Tests Units
 - Clean Code
 - ...writing
 
 <div class="folder-structure">
     <div class="title">
-        <img width="20" src="https://github.githubassets.com/images/icons/emoji/unicode/2139.png"/> 
+        <img width="20" src="https://github.githubassets.com/images/icons/emoji/unicode/2139.png"/>
         <span>Folder's Structure</span>
     </div>
 </div>
@@ -23,11 +23,13 @@
 │   ├── 📂 repositories         // manipulações no dynamo
 │   ├── 📂 services             // requisições a outras api
 │   └── 📂 utils                // helpers
-│       └─── helper-func.js      // function 
+│       └─── helper-func.js      // function
 │  .editorconfig
 │  .eslintrc.json
 │  .gitignore
-│  README.md  
+│  README.md
 │  package.json
 └  serverless.yml
 ```
+
+### Current
