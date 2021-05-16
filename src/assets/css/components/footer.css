@@ -1,5 +1,5 @@
 .footer {
-  position: absolute;
+  position: relative;
   bottom: 0;
   display: flex;
   justify-content: space-between;
@@ -7,6 +7,7 @@
   padding: 0 10px;
   height: 64px;
   width: 100%;
-  background: var(--black-color);
-  opacity: 70%;
+  background: var(--primary-color);
+  opacity: 100%;
 }
+
