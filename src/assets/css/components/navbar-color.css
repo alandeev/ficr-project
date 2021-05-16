@@ -14,3 +14,7 @@
 .nav-list a {
   color: var(--primary-color);
 }
+
+i.icon-primary {
+  color: var(--primary-color);
+}
