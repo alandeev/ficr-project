@@ -11,7 +11,7 @@ document.addEventListener('DOMContentLoaded', function() {
 
 const sliderOptions = {
   duration: 100,
-  indicators: false
+  indicators: true
 }
 
 
