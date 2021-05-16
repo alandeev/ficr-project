@@ -64,6 +64,11 @@ body {
   color: var(--black-color);
 }
 
+.slider {
+  z-index: 0;
+}
+
+
 
 @media only screen and (max-width: 1240px) {
   .section {
