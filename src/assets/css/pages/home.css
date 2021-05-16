@@ -62,6 +62,7 @@ body {
 
 .posts--title {
   color: var(--black-color);
+  /*text-align: center; - alinhar ou não alinhar no centro*/ 
 }
 
 .slider {
