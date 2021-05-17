@@ -16,3 +16,7 @@
 .navbar #dropdown1 form{
   width: 200px;
 }
+
+#section-padding ul.indicators li.active {
+  background-color: var(--primary-color);
+}

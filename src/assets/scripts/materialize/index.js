@@ -16,7 +16,6 @@ document.addEventListener('DOMContentLoaded', function() {
 
 const sliderOptions = {
   duration: 100,
-  indicators: false
 }
 
 const elemsDropdown = document.querySelectorAll('.dropdown-trigger');
