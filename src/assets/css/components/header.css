@@ -12,3 +12,7 @@
   position: relative;
   z-index: 1;
 }
+
+.navbar #dropdown1 form{
+  width: 200px;
+}

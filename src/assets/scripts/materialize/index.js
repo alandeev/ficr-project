@@ -1,8 +1,13 @@
 document.addEventListener('DOMContentLoaded', function() {
   var elems = document.querySelectorAll('.sidenav');
-  var instances = M.Sidenav.init(elems);
+  var instances = M.Sidenav.init(elems, sidenavOptions);
   
 });
+
+const sidenavOptions = {
+  edge: 'right',
+  draggable: true
+}
 
 document.addEventListener('DOMContentLoaded', function() {
   var elems = document.querySelectorAll('.slider');
@@ -11,18 +16,10 @@ document.addEventListener('DOMContentLoaded', function() {
 
 const sliderOptions = {
   duration: 100,
-  indicators: true
+  indicators: false
 }
 
-
-// const carouselOptions = {
-//   duration: 100
-// }
-
-
-
-// document.addEventListener('DOMContentLoaded', function() {
-//   var elems = document.querySelectorAll('.carousel');
-//   var instances = M.Carousel.init(elems, carouselOptions);
-// });
-
+const elemsDropdown = document.querySelectorAll('.dropdown-trigger');
+const instancesDropdown = M.Dropdown.init(elemsDropdown, {
+  coverTrigger: false
+})

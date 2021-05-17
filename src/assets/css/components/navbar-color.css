@@ -3,7 +3,7 @@
 }
 
 
-.navbar-title span{
+nav a.brand-logo{
  color: var(--black-color);
 }
 
@@ -17,4 +17,21 @@
 
 i.icon-primary {
   color: var(--primary-color);
+}
+
+ul.sidenav li a i.icon-light {
+  color: var(--light-color);
+}
+
+ul.sidenav {
+  color: var(--light-color);
+  background-color: var(--primary-color);
+}
+
+ul.sidenav li a {
+  color: var(--light-color);
+}
+
+.input-field .prefix.active{
+  color: var(--black-color) !important;
 }
