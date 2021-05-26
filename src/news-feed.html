@@ -1,67 +1,92 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Feed de Notícias | Ponte</title>
-    <link rel="stylesheet" href="./assets/css/index.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
-    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-    <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css"> <!--ref pros icones das redes sociais-->
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
-</head>
-<body>
-    <header>
-        <nav class="navbar">
-          <div class="nav-wrapper">
-            <div class="navbar-title left">
-              <a href="index.html" class="brand-logo">pon te</a>
-            </div>
-            <div class="nav-list">
-              <a href="#" data-target="mobile" class="sidenav-trigger right">
-                <i class="material-icons">menu</i>
-              </a>
-              <ul class="right hide-on-med-and-down">
-                <li><a href="news-feed.html">notícias</a></li>
-                <li><a href="badges.html">quem somos</a></li>
-                <li><a href="collapsible.html">postar</a></li>
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Feed de Notícias | Ponte</title>
+        <link rel="stylesheet" href="./assets/css/index.css">
+        <link rel="stylesheet" href="./assets/css/pages/news-feed.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+        <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+        <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css"> <!--ref pros icones das redes sociais-->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+    </head>
+    <body>
+        <header>
+            <nav class="navbar">
+                <div class="nav-wrapper">
+                    <div class="navbar-title left">
+                        <a href="index.html" class="brand-logo">pon te</a>
+                    </div>
+                    <div class="nav-list">
+                        <a href="#" data-target="mobile" class="sidenav-trigger right">
+                            <i class="material-icons">menu</i>
+                        </a>
+                        <ul class="right hide-on-med-and-down">
+                            <li><a href="news-feed.html">notícias</a></li>
+                            <li><a href="badges.html">quem somos</a></li>
+                            <li><a href="collapsible.html">postar</a></li>
+                            <li>    
+                                <div class="input-field col s6 s12 icon-primary">
+                                    <i class=" icon-primary material-icons prefix">search</i>
+                                    <input class="black-color" type="text" placeholder="buscar">
+                            </div>              
+                            </li> 
+                            <li><a href=""><i class="material-icons icon-primary">person</i></a></li>
+                            <li><a href=""><i class="material-icons icon-primary">exit_to_app</i></a></li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+            <ul class="sidenav sidenav-colors" id="mobile">
+                <li><a href="index.html">pon te</a></li>
                 <li>    
-                  <div class="input-field col s6 s12 icon-primary">
-                    <i class=" icon-primary material-icons prefix">search</i>
-                    <input class="black-color" type="text" placeholder="buscar">
-                  </div>              
+                    <div class="row" id="topbarsearch">
+                        <div class="input-field col s6 s12 icon-light">
+                            <i class=" icon-light material-icons prefix">search</i>
+                            <input type="text" placeholder="buscar">
+                        </div>
+                    </div>         
                 </li> 
-                <li><a href=""><i class="material-icons icon-primary">person</i></a></li>
-                <li><a href=""><i class="material-icons icon-primary">exit_to_app</i></a></li>
-              </ul>
+                <!-- <li><a href="sass.html"><i class="material-icons icon-light">search</i></a></li> -->
+                <li><a class="waves-effect" href="badges.html">notícias</a></li>
+                <li><a class="waves-effect" href="collapsible.html">quem somos</a></li>
+                <li><a class="waves-effect" href="mobile.html">postar</a></li>
+                <li> <div class="divider"></div></li>
+                <li><a class="waves-effect" href="mobile.html"><i class="material-icons icon-light">person</i>Login</a></li>
+                <li><a class="waves-effect" href="mobile.html"><i class="material-icons icon-light">exit_to_app</i>Logout</a></li>
+            </ul>
+        </header>
+
+        <section class="title">
+            <div class="news-feed--title">
+                <h6>FEED DE NOTÍCIAS</h6>
             </div>
-          </div>
-        </nav>
-        <ul class="sidenav sidenav-colors" id="mobile">
-          <li><a href="index.html">pon te</a></li>
-          <li>    
-                 <div class="row" id="topbarsearch">
-                   <div class="input-field col s6 s12 icon-light">
-                     <i class=" icon-light material-icons prefix">search</i>
-                     <input type="text" placeholder="buscar">
-                     </div>
-                   </div>         
-           </li> 
-          <!-- <li><a href="sass.html"><i class="material-icons icon-light">search</i></a></li> -->
-          <li><a class="waves-effect" href="badges.html">notícias</a></li>
-          <li><a class="waves-effect" href="collapsible.html">quem somos</a></li>
-          <li><a class="waves-effect" href="mobile.html">postar</a></li>
-          <li> <div class="divider"></div></li>
-          <li><a class="waves-effect" href="mobile.html"><i class="material-icons icon-light">person</i>Login</a></li>
-          <li><a class="waves-effect" href="mobile.html"><i class="material-icons icon-light">exit_to_app</i>Logout</a></li>
-        </ul>
-      </header>
-      <footer class="footer">
-        <p>All Right 2021 - @pon te</p>
-        <p><i class="fab fa-facebook"></i></p> <!--por favor dar uma olhada nisso (inserir icones)-->
-      </footer>
-      <script src="./assets/scripts/materialize/index.js"></script>
-      <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
-</body>
+            <div class="row">
+                <div class="col s12 m7">
+                  <div class="card">
+                    <div class="card-image">
+                      <img src="./assets/images/ong1.jpg">
+                      <span class="card-title">Card Title</span>
+                    </div>
+                    <div class="card-content">
+                      <p>I am a very simple card. I am good at containing small bits of information.
+                      I am convenient because I require little markup to use effectively.</p>
+                    </div>
+                    <div class="card-action">
+                      <a href="#">This is a link</a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+        </section>
+
+        <footer class="footer">
+            <p>All Right 2021 - @pon te</p>
+            <p><i class="fab fa-facebook"></i></p> <!--por favor dar uma olhada nisso (inserir icones)-->
+        </footer>
+        <script src="./assets/scripts/materialize/index.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+    </body>
 </html>
