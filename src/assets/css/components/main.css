@@ -1,0 +1,20 @@
+@import url('./navbar-color.css');
+@import url('./header.css');
+@import url('./footer.css');
+
+body {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  border-collapse: collapse;
+}
+
+.section {
+  justify-self: flex-start;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  /* padding: 5px 20px; */
+  height: 100%;
+}
+
