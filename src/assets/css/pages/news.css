@@ -1,3 +1,51 @@
 @import url('../components/main.css');
 
+.news-feed--title {
+    margin-top: auto;
+    font-size: 2.2rem;
+    text-align: center;
+    display: flex;
+}
 
+#col-padding {
+    padding: 0;
+}
+
+.row .col .card {
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin: 0 auto !important;
+}
+
+.section .card .card-content {
+    padding: 10px 24px 20px;
+}
+
+.section .card .card-content .card-title {
+    text-align: center;
+    font-weight: 500;
+}
+
+.card-title a {
+    color: var(--black-color);
+}
+
+.card-title a:hover {
+    color: var(--primary-color);
+    transition: 0.3s;
+}
+
+.card-content p {
+    color: var(--black-color);
+    text-align: justify;
+    letter-spacing: 1px;
+}
+.card-header {
+    background-color: var(--primary-color);
+    padding: 10px;
+}
+.card-header p{
+    font-weight: 400;
+}
