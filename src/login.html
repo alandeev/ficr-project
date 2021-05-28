@@ -11,6 +11,7 @@
   <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
   <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css"> <!--ref pros icones das redes sociais-->
   <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+  <script src="assets/scripts/utils/notAuthenticated.js"></script>
 </head>
 <body>
   <header>
@@ -18,7 +19,6 @@
       <div class="nav-wrapper">
         <div class="navbar-title left">
           <a href="#" class="brand-logo">pon te</a>
-          <p>pon te</p>
         </div>
         <div class="nav-list">
           <a href="#" data-target="mobile" class="sidenav-trigger right">
@@ -29,8 +29,6 @@
             <li><a href="quem-somos.html">quem somos</a></li>
             <li><a href="collapsible.html">postar</a></li>
             <li><a href=""><i class="material-icons icon-primary">search</i></a></li>
-            <li><a href=""><i class="material-icons icon-primary">person</i></a></li>
-            <li><a href=""><i class="material-icons icon-primary">exit_to_app</i></a></li>
           </ul>
         </div>
       </div>
@@ -42,8 +40,6 @@
       <li><a href="collapsible.html">quem somos</a></li>
       <li><a href="mobile.html">postar</a></li>
       <li><div class="divider"></div></li>
-      <li><a href="mobile.html"><i class="material-icons icon-primary">person</i>Login</a></li>
-      <li><a href="mobile.html"><i class="material-icons icon-primary">exit_to_app</i>Logout</a></li>
     </ul>
   </header>
   <section class="section">
@@ -55,13 +51,13 @@
       <div class="form--fields">
         <div class="input-field col s10">
           <i class="material-icons prefix">email</i>
-          <input autocomplete="off" id="icon_prefix" type="text" class="validate">
-          <label for="icon_prefix">E-mail</label>
+          <input autocomplete="off" id="email" type="text" class="validate">
+          <label for="email">E-mail</label>
         </div>
         <div class="input-field col s10 c20">
           <i class="material-icons prefix lighten-2">password</i>
-          <input autocomplete="off" id="icon_prefix" type="password" class="validate">
-          <label for="icon_prefix">Senha</label>
+          <input autocomplete="off" id="password" type="password" class="validate">
+          <label for="password">Senha</label>
         </div>
       </div>
       <div class="form-buttons">
@@ -76,5 +72,6 @@
   </footer>
   <script src="./assets/scripts/materialize/index.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+  <script src="assets/scripts/utils/login.js"></script>
 </body>
 </html>
