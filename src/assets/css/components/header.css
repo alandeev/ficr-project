@@ -1,16 +1,13 @@
-.navbar-title {
-  align-items: center;  
-  height: 100%;
+.navbar-title a {
+  color: #000;
 }
 
-.navbar-title span {
-  padding: 10px;
-  font-size: 26px;
-}
 
 .navbar {
-  position: relative;
+  position: fixed;
   z-index: 1;
+  background: var(--light-color);
+  padding: 0 20px;
 }
 
 .navbar #dropdown1 form{

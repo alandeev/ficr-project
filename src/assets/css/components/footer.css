@@ -1,13 +1,8 @@
 .footer {
-  position: relative;
+  position: fixed;
   bottom: 0;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  padding: 0 10px;
-  height: 64px;
+  padding: 26px 10px;
   width: 100%;
   background: var(--primary-color);
-  opacity: 100%;
 }
 

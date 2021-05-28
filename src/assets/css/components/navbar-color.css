@@ -1,4 +1,4 @@
-.nav-wrapper { 
+.nav-wrapper {
   background-color: var(--light-color);
 }
 
@@ -7,31 +7,29 @@ nav a.brand-logo{
  color: var(--black-color);
 }
 
+.input-search {
+  display: flex;
+  align-items: center;
+  padding: 0 5px;
+}
+
+.input-search i {
+  display: flex;
+  width: 40px;
+  align-items: center;
+  justify-content: center;
+}
+
+li .input-field {
+  display: flex;
+  align-items: center;
+  height: 0;
+}
+
 .nav-list li a{
   color: var(--black-color);
 }
 
-.nav-list a {
+i.material-icons {
   color: var(--primary-color);
-}
-
-i.icon-primary {
-  color: var(--primary-color);
-}
-
-ul.sidenav li a i.icon-light {
-  color: var(--light-color);
-}
-
-ul.sidenav {
-  color: var(--light-color);
-  background-color: var(--primary-color);
-}
-
-ul.sidenav li a {
-  color: var(--light-color);
-}
-
-.input-field .prefix.active{
-  color: var(--black-color) !important;
 }

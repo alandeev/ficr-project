@@ -11,11 +11,49 @@ body {
 }
 
 .section {
+  margin-top: 70px;
   justify-self: flex-start;
   display: flex;
   align-items: center;
   flex-direction: column;
-  /* padding: 5px 20px; */
   height: 100%;
 }
 
+
+.form {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  border-radius: 10px;
+  background: #FFF;
+  padding: 35px;
+  width: 650px;
+  max-height: inherit;
+}
+
+.form--header {
+  display: flex;
+  flex-direction: column;
+  padding: 2px 25px;
+}
+
+.form--header p {
+  color: rgba(0, 0, 0, 0.6);
+}
+
+.form--fields {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  margin: 10px 0;
+}
+
+.form-buttons {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.form-buttons button {
+  background: var(--primary-color);
+}
