@@ -1,26 +1,2 @@
-.section {
-  display: flex;
-  flex-direction: row;
-  align-items: flex-start;
-  padding: 20px;
-}
 
-.section--cards .card {
-  display: flex;
-  padding: 10px;
-  align-items: center;
-  width: 80%;
-}
 
-.section img {
-  height: 80px;
-}
-
-.posts--contents {
-  display: flex;
-  flex-direction: column;
-}
-
-.section--right {
-  padding: 20px;
-}
