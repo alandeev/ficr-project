@@ -13,125 +13,127 @@
   <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
 </head>
 <body>
-  <header>
-    <nav class="navbar">
-      <div class="nav-wrapper">
-        <div class="navbar-title left">
-          <a href="index.html" class="brand-logo">pon te</a>
-        </div>
-        <div class="nav-list">
-          <a href="#" data-target="mobile" class="sidenav-trigger right">
-            <i class="material-icons">menu</i>
-          </a>
-          <ul class="right hide-on-med-and-down">
-            <li><a href="news-feed.html">notícias</a></li>
-            <li><a href="quem-somos.html">quem somos</a></li>
-            <li><a href="collapsible.html">postar</a></li>
+    <header>
+        <nav class="navbar">
+            <div class="nav-wrapper">
+                <div class="navbar-title left">
+                    <a href="index.html" class="brand-logo">pon te</a>
+                </div>
+                <div class="nav-list">
+                    <a href="#" data-target="mobile" class="sidenav-trigger right">
+                        <i class="material-icons">menu</i>
+                    </a>
+                    <ul class="right hide-on-med-and-down">
+                        <li><a href="news-feed.html">notícias</a></li>
+                        <li><a href="quem-somos.html">quem somos</a></li>
+                        <li><a href="collapsible.html">postar</a></li>
+                        <li>
+                            <div class="input-field col s6 s12 icon-primary">
+                                <i class=" icon-primary material-icons prefix">search</i>
+                                <input class="black-color" type="text" placeholder="buscar">
+                        </div>
+                        </li>
+                        <li><a href=""><i class="material-icons icon-primary">person</i></a></li>
+                        <li><a href="login.html"><i class="material-icons icon-primary">exit_to_app</i></a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        <ul class="sidenav sidenav-colors" id="mobile">
+            <li><a href="index.html">pon te</a></li>
             <li>
-              <div class="input-field col s6 s12 icon-primary">
-                <i class=" icon-primary material-icons prefix">search</i>
-                <input class="black-color" type="text" placeholder="buscar">
-              </div>
+                <div class="row" id="topbarsearch">
+                    <div class="input-field col s6 s12 icon-light">
+                        <i class=" icon-light material-icons prefix">search</i>
+                        <input type="text" placeholder="buscar">
+                    </div>
+                </div>
             </li>
-            <li><a href=""><i class="material-icons icon-primary">person</i></a></li>
-            <li><a href="login.html"><i class="material-icons icon-primary">exit_to_app</i></a></li>
-          </ul>
-        </div>
-      </div>
-    </nav>
-    <ul class="sidenav sidenav-colors" id="mobile">
-      <li><a href="quemsomos.html">pon te</a></li>
-      <li>
-             <div class="row" id="topbarsearch">
-               <div class="input-field col s6 s12 icon-light">
-                 <i class=" icon-light material-icons prefix">search</i>
-                 <input type="text" placeholder="buscar">
-                 </div>
-               </div>
-       </li>
-      <!-- <li><a href="sass.html"><i class="material-icons icon-light">search</i></a></li> -->
-      <li><a class="waves-effect" href="badges.html">notícias</a></li>
-      <li><a class="waves-effect" href="collapsible.html">quem somos</a></li>
-      <li><a class="waves-effect" href="mobile.html">postar</a></li>
-      <li> <div class="divider"></div></li>
-      <li><a class="waves-effect" href="mobile.html"><i class="material-icons icon-light">person</i>Login</a></li>
-      <li><a class="waves-effect" href="login.html"><i class="material-icons icon-light">exit_to_app</i>Logout</a></li>
-    </ul>
-  </header>
-  <section class="section" id="section-padding">
-    <!-- <div class="section--banner"> -->
+            <!-- <li><a href="sass.html"><i class="material-icons icon-light">search</i></a></li> -->
+            <li><a class="waves-effect" href="news-feed.html">notícias</a></li>
+            <li><a class="waves-effect" href="quem-somos.html">quem somos</a></li>
+            <li><a class="waves-effect" href="mobile.html">postar</a></li>
+            <li> <div class="divider"></div></li>
+            <li><a class="waves-effect" href="mobile.html"><i class="material-icons icon-light">person</i>Login</a></li>
+            <li><a class="waves-effect" href="login.html"><i class="material-icons icon-light">exit_to_app</i>Logout</a></li>
+        </ul>
+    </header>
 
-    <div class="section--quem-somos">
-      <div class="quem-somos--title">
-        <h3>QUEM SOMOS</h3>
-      </div>
-      <div class="posts--contents">
-        <div class="col s12 m7">
-          <div class="card horizontal">
-            <div class="card-image">
-              <img class="circle" src="./assets/images/ong_logo.jpg">
+    <section class="section title">
+        <h3 class="quem-somos-title">QUEM SOMOS</h3>
+        <div class="row">
+            <div class="col m2"></div>
+            <div class="col s12 m8" id="col-padding">
+                <a href="">
+                    <div class="card">
+                        <div class="card-header">
+                            <p>ASSUNTO</p>
+                        </div>
+                        <div class="card-image">
+                            <img src="./assets/images/ong1.jpg">
+                        </div>
+                        <div class="card-content">
+                            <p class="card-title">
+                                <a href="">Quem quem somos quem somos quem somos quem somossomos quem somos quem somos quem somos quem somos</a>
+                            </p>
+                            <p></p>
+                        </div>
+                    </div>
+                </a>
             </div>
-            <div class="card-stacked">
-              <div class="card-content">
-                <p class="posts--description">
-                  Lorem ipsum, dolor sit amet consectetur adipisicing elit. Inventore eius accusantium sunt aliquam repellendus ratione, minima sapiente laudantium, hic eos alias itaque debitis accusamus temporibus voluptates dignissimos omnis placeat? Id!
-                </p>
-              </div>
+        </div>
+        <div class="row">
+            <div class="col m2"></div>
+            <div class="col s12 m8" id="col-padding">
+                <a href="">
+                    <div class="card">
+                        <div class="card-header">
+                            <p>ASSUNTO</p>
+                        </div>
+                        <div class="card-image">
+                            <img src="">
+                        </div>
+                        <div class="card-content">
+                            <p class="card-title">
+                                <a href="">Quem somos quem somos quem somos  quem somos quem somos quem somos quem somos quem somos quem somos quem somos quem somos</a>
+                            </p>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore provident quis minima accusantium ipsam voluptates, natus vitae. Facere sunt neque vero nihil omnis non laboriosam, vel sint dolorem commodi atque? ...</p>
+                        </div>
+                    </div>
+                </a>
             </div>
-          </div>
-        </div>
-        <div class="col s12 m12">
-          <div class="card horizontal">
-            <div class="card-image">
-              <img class="circle" src="./assets/images/ong_logo.jpg">
+        </div> 
+        <h1>Contato</h1>
+        <h2>Telefone:4002-8922</h2>
+        <h3><E-mail> ponte@example.com</E-mail></h3>
+        <div class="row">
+            <div class="col m2"></div>
+            <div class="col s12 m8" id="col-padding">
+                <a href="">
+                    <div class="card">
+                        <div class="card-header">
+                            <p>ASSUNTO</p>
+                        </div>
+                        <div class="card-image">
+                            <img src="./assets/images/ong3.jpeg">
+                        </div>
+                        <div class="card-content">
+                            <p class="card-title">
+                                <a href="">Quem Somos Quem Somos Quem Somos Quem Somos Quem Somos</a>
+                            </p>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore provident quis minima accusantium ipsam voluptates, natus vitae. Facere sunt neque vero nihil omnis non laboriosam, vel sint dolorem commodi atque? ...</p>
+                        </div>
+                    </div>
+                </a>
             </div>
-            <div class="card-stacked">
-              <div class="card-content">
-                <p class="posts--description">
-                  Lorem ipsum, dolor sit amet consectetur adipisicing elit. Inventore eius accusantium sunt aliquam repellendus ratione, minima sapiente laudantium, hic eos alias itaque debitis accusamus temporibus voluptates dignissimos omnis placeat? Id!
-                </p>
-              </div>
-            </div>
-          </div>
         </div>
-        <div class="col s12 m7">
-          <div class="card horizontal">
-            <div class="card-image">
-              <img class="circle" src="./assets/images/ong_logo.jpg">
-            </div>
-            <div class="card-stacked">
-              <div class="card-content">
-                <p class="posts--description">
-                  Lorem ipsum, dolor sit amet consectetur adipisicing elit. Inventore eius accusantium sunt aliquam repellendus ratione, minima sapiente laudantium, hic eos alias itaque debitis accusamus temporibus voluptates dignissimos omnis placeat? Id!
-                </p>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-    <div class="row section--new-ongs">
-      <div class="col s12">
-        <h3>NOVAS ONGS</h3>
-      </div>
-        <div class="card--new-ong">
-          <img class="circle" src="./assets/images/ong_logo.jpg" alt="">
-          <p class="">ongong</p>
-        </div>
-        <div class="card--new-ong">
-          <img class="circle" src="./assets/images/ong_logo.jpg" alt="">
-          <p class="">ongong</p>
-        </div>
-        <div class="card--new-ong">
-          <img class="circle" src="./assets/images/ong_logo.jpg" alt="">
-          <p class="">ongong</p>
-        </div>
-  </section>
-  <footer class="footer">
-    <p>All Right 2021 - @pon te</p>
-    <p><i class="fab fa-facebook"></i></p> <!--por favor dar uma olhada nisso (inserir icones)-->
-  </footer>
-  <script src="./assets/scripts/materialize/index.js"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+    </section>
+
+    <footer class="footer">
+        <p>All Right 2021 - @pon te</p>
+        <p><i class="fab fa-facebook"></i></p> <!--por favor dar uma olhada nisso (inserir icones)-->
+    </footer>
+    <script src="./assets/scripts/materialize/index.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
 </body>
 </html>
