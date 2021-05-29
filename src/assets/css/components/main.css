@@ -27,7 +27,7 @@ body {
   border-radius: 10px;
   background: #FFF;
   padding: 35px;
-  width: 650px;
+  /* width: 650px; */
   max-height: inherit;
 }
 
