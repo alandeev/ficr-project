@@ -48,5 +48,5 @@ table {
 }
 
 a, p, span {
-  color: var(--black-color);
+  color: var(--light-color);
 }
