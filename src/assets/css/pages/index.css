@@ -36,46 +36,70 @@
   
   .posts--item {
     margin-top: 10px;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
     background: #ccc;
     padding: 20px 10px;
     height: 100px;
   }
   
-  .posts--title h3, .section--new-ongs h3 {
+  .posts--title h3 {
     font-size: 2.2rem;
     text-align: left;
-    display: flex;
-    }
-  
-  .section--new-ongs{
-    display: flex;
-    flex-direction: initial;
-    width: 70%;
+    display: grid;
   }
-  
+
   .slider {
     z-index: 0;
   }
   
+  .posts--contents > .col {
+    box-sizing: content-box;
+  }
+
   .card-content p {
     color: var(--black-color);
+    max-width: 600px;
+    font-size: 16px;
+    line-height: 24px;
   }
   
-  .card-image img{
-    height: 45px;
-    margin: 10px 10px;
+  .posts--contents .card-image img{
+    height: 100px;
+    /* width: 10px; */
+    width: auto;
+    margin: 0 0 0 1rem;
+    padding: 24px 0px;
   }
+  
+  .section > .row .col {
+    padding: 0;
+  }
+
+  .section--new-ongs {
+    width: 70%;
+  }
+
+  .section--new-ongs h3 {
+    font-size: 2.2rem;
+    text-align: left;
+    padding: 0;
+  }
+
+  .section--new-ongs > .cards--new-ong {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    width: 10px;
+    column-gap: 1rem;
+  }
+
   
   .card--new-ong {
+    display: grid;
     background-color: var(--light-color);
-    border-radius: 5px;
-    box-shadow: 2px 2px 4.5px rgba(0, 0, 0, 0.5);
-    margin: 10px 10px;
+    /* border-radius: 5px; */
+    box-shadow: 2px 2px 3px rgba(0, 0, 0, 0.3);
+    margin: 0;
     padding: 10px;
-    float: left;
+    float: center;
   }
   
   .card--new-ong img {
@@ -84,10 +108,23 @@
   .card--new-ong p {
     text-align: center;
     color: var(--black-color);
+    font-size: 16px;
+    margin-top: .5rem;
   }
   
   @media only screen and (max-width: 1240px) {
     .section {
       justify-content: center;
     }
+  }
+
+    @media (max-width: 400px) {
+
+      .section--new-ongs > .cards--new-ong {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        width: 10px;
+        column-gap: 1rem;
+        row-gap: 1rem;
+      }
   }
