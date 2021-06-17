@@ -4,8 +4,17 @@
   width: 100%;
   bottom: 0;
   background: var(--primary-color);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 
 .footer p, a {
   color: var(--light-color);
+}
+
+.footer img {
+  width: 90px;
+  float: left;
+  flex-direction: column;
 }
