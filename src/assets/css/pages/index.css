@@ -1,25 +1,26 @@
 #section-padding {
     padding-top: 0;
   }
-  
+
   .section {
     width: calc(100%-60px);
     height: 100%;
+    margin-bottom: 50px;
   }
-  
+
   .section--posts {
     display: flex;
     flex-direction: column;
     width: 100%;
   }
-  
+
   .posts--contents {
     margin-top: 10px;
     /* background: #ccc; */
     padding: 20px 10px;
     /* height: 100px; */
   }
-  
+
   .posts--title h3 {
     font-size: 2.2rem;
     text-align: left;
@@ -27,12 +28,9 @@
   }
 
   .slider {
+    margin-top: -5px;
     z-index: 0;
   }
-  
-  /* .posts--contents {
-    box-sizing: content-box;
-  } */
 
   .card-content p {
     color: var(--black-color);
@@ -40,7 +38,7 @@
     font-size: 16px;
     line-height: 24px;
   }
-  
+
   .posts--contents .card-image img{
     height: 100px;
     /* width: 10px; */
@@ -48,7 +46,7 @@
     margin: 0 0 0 1rem;
     padding: 24px 0px;
   }
-  
+
   .section > .row .col {
     padding: 0;
   }
@@ -74,7 +72,7 @@
     padding-top: 35px;
   }
 
-  
+
   .card--new-ong {
     display: grid;
     background-color: var(--light-color);
@@ -84,7 +82,7 @@
     padding: 10px;
     border-radius: 0 0 2px 2px;
   }
-  
+
   .card--new-ong img {
     width: 60px;
   }
@@ -95,7 +93,7 @@
     margin-top: .5rem;
     font-weight: 600;
   }
-  
+
   @media only screen and (max-width: 1240px) {
     .section {
       justify-content: center;
