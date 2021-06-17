@@ -1,7 +1,6 @@
 @import url('../components/main.css');
 
 .news-feed--title {
-    margin-top: auto;
     font-size: 2.2rem;
     text-align: center;
     display: flex;
@@ -48,4 +47,6 @@
 }
 .card-header p{
     font-weight: 400;
+    font-size: 1.4rem;
+    color: var(--light-color);
 }

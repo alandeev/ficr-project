@@ -10,6 +10,7 @@
 .profile .banner img {
   width: 100%;
   height: 300px;
+  object-fit: cover;
 }
 
 .profile .photo {
@@ -19,19 +20,24 @@
 
 .profile .photo img {
   width: 160px;
-  height: 160px;
+  max-height: auto;
+}
+
+.profile .about button.btn {
+  background-color: var(--primary-color);
 }
 
 .profile .about {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  margin-top: 20px;
+  margin: 20px;
   padding: 0 20px;
 }
 
 .profile .about #profile-name {
   font-size: 1.8rem;
+  text-transform: uppercase;
 }
 
 .posts {

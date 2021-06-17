@@ -17,7 +17,7 @@
   .posts--contents {
     margin-top: 10px;
     /* background: #ccc; */
-    padding: 20px 10px;
+    padding: 20px 20px 20px 0;
     /* height: 100px; */
   }
 
@@ -68,7 +68,7 @@
     grid-template-columns: 1fr;
     width: 10px;
     row-gap: 1rem;
-    margin-left: 5rem;
+    margin-left: 4.5rem;
     padding-top: 35px;
   }
 
