@@ -2,43 +2,22 @@
     padding-top: 0;
   }
   
-  .section--container {
+  .section {
     width: calc(100%-60px);
     height: 100%;
-  }
-  
-  .section--container .form {
-    padding: 10px;
-    height: 650px;
-    border-radius: 20px;
-  }
-  
-  .section--container .form--title {
-    padding: 10px;
-    border-radius: 20px;
-  }
-  
-  .section--banner {
-    width: 600px;
-    margin-top: 0;
-  }
-  
-  .section--banner--item {
-    height: 200px;
-    width: 300px;
   }
   
   .section--posts {
     display: flex;
     flex-direction: column;
-    width: 70%;
+    width: 100%;
   }
   
-  .posts--item {
+  .posts--contents {
     margin-top: 10px;
-    background: #ccc;
+    /* background: #ccc; */
     padding: 20px 10px;
-    height: 100px;
+    /* height: 100px; */
   }
   
   .posts--title h3 {
@@ -51,9 +30,9 @@
     z-index: 0;
   }
   
-  .posts--contents > .col {
+  /* .posts--contents {
     box-sizing: content-box;
-  }
+  } */
 
   .card-content p {
     color: var(--black-color);
@@ -75,7 +54,9 @@
   }
 
   .section--new-ongs {
-    width: 70%;
+    display: grid;
+    width: 100%;
+    align-items: center;
   }
 
   .section--new-ongs h3 {
@@ -86,9 +67,11 @@
 
   .section--new-ongs > .cards--new-ong {
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-columns: 1fr;
     width: 10px;
-    column-gap: 1rem;
+    row-gap: 1rem;
+    margin-left: 5rem;
+    padding-top: 35px;
   }
 
   
@@ -99,7 +82,7 @@
     box-shadow: 2px 2px 3px rgba(0, 0, 0, 0.3);
     margin: 0;
     padding: 10px;
-    float: center;
+    border-radius: 0 0 2px 2px;
   }
   
   .card--new-ong img {
@@ -110,6 +93,7 @@
     color: var(--black-color);
     font-size: 16px;
     margin-top: .5rem;
+    font-weight: 600;
   }
   
   @media only screen and (max-width: 1240px) {
@@ -118,13 +102,18 @@
     }
   }
 
-    @media (max-width: 400px) {
+    @media (max-width: 600px) {
 
       .section--new-ongs > .cards--new-ong {
         display: grid;
-        grid-template-columns: 1fr 1fr;
+        grid-template-columns: 1fr 1fr 1fr;
         width: 10px;
         column-gap: 1rem;
-        row-gap: 1rem;
+        margin-left: 0;
+        padding-top: 20px;
+      }
+
+      .posts--contents {
+        padding: 0;
       }
   }

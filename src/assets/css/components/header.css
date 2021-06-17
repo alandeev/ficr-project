@@ -9,8 +9,26 @@
   background: var(--light-color);
   padding: 0 20px;
 }
-.navbar a {
-  color: var(--primary-color) !important;
+
+header .navbar a {
+  color: var(--primary-color);
+  font-size: 1.3rem;
+}
+
+header .navbar i {
+  font-size: 1.3rem;
+}
+
+header .sidenav {
+  background-color: var(--primary-color);
+}
+
+header .sidenav li a {
+  color: var(--light-color);
+}
+
+header .sidenav li i {
+  color: var(--light-color) !important;
 }
 
 .navbar #dropdown1 form{
